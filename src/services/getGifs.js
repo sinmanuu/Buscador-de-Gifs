@@ -1,3 +1,4 @@
+// hacemos la peticion a la URL con el keyword que le pasamos y nos devuelve el titulo, id y la URL de los gifs
 const apiKey = "1h0cUDy1GAEzMF8PjeS4zNSrpkuWwVOm&q";
 
 export default function getGifs({ keyword = "morty" } = {}) {
